@@ -1,0 +1,29 @@
+{
+  "name": "weatherapi-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "weather-app"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "Bhabishya Ghimire",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "requests": "^0.3.0"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
